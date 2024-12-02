@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue - Notre Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="shortcut icon" href="images/imgst.jfif" type="image/x-icon"> -->
+</head>
+<body>
+    
+        
+        
+            
+        <nav class="navbar">
+                <a href="index.html" class="logo">MONTANA Restaurant</a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html"><b>Accueil</b></a></li>
+                    <li><a href="menu.html"><b>Menu</b></a></li>
+                    <li><a href="about.html"><b>About</b></a></li>
+                    <li><a href="booktable.html"><b>Book Table</b></a></li>
+                    <li><a href="contact.html"><b>Contact</b></a></li>
+                
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="facebook.png" alt="Facebook" width="25px">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="instagram.png" alt="Instagram" width="25px">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.X.com" target="_blank">
+                            <img src="twitter.png" alt="X" width="25px">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <button type="button" class="menu-icon">☰</button>
+            
+        </nav>
+    <header>
+
+    <main>
+        <section class="booking-page">
+            <h2>Réservez une table chez MONTANA Restaurant</h2>
+            <p>Veuillez remplir le formulaire ci-dessous pour réserver votre table.</p>
+
+            <form class="fr" method="post" class="reservation-form">
+                <table>
+                    <tr>
+                        <td><label for="name">Nom :</label></td>
+                        <td><input type="text" id="name" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email :</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Téléphone :</label></td>
+                        <td><input type="tel" id="phone" name="phone" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="date">Date :</label></td>
+                        <td><input type="date" id="date" name="date" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="time">Heure :</label></td>
+                        <td><input type="time" id="time" name="time" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="guests">Nombre de personnes :</label></td>
+                        <td><input type="number" id="guests" name="guests" min="1" max="20" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="special-requests">Demandes spéciales :</label></td>
+                        <td><textarea id="special-requests" name="special_requests" rows="4"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button type="submit" >Réserver</button></td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p>&copy; 2024 MONTANA Restaurant - Tous droits réservés</p>
+</footer>
+</html>

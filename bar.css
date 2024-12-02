@@ -1,0 +1,78 @@
+@media screen and (max-width: 906px) {
+    .navbar{
+      padding: 0;
+    }
+    .menu-icon {
+      display: block; /* Assurez que le bouton est visible */
+      position: absolute;
+      top: 20px; /* Ajustez selon vos besoins */
+      right: 20px; /* Ajustez selon vos besoins */
+      width: 50px; /* Largeur du bouton */
+      height: 50px; /* Hauteur du bouton */
+      background-color: rgba(0, 0, 0, 0.8); /* Couleur de fond avec transparence */
+      color: white; /* Couleur du symbole */
+      font-size: 2em; /* Taille du symbole */
+      font-weight: bold;
+      border: none; /* Pas de bordure */
+      border-radius: 8px; /* Coins arrondis */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer; /* Curseur interactif */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Ombre douce */
+      transition: all 0.3s ease; /* Transition fluide pour l'animation */
+    }
+    
+    .menu-icon:hover {
+      background-color: rgba(255, 255, 255, 0.9); /* Fond plus clair au survol */
+      color: black; /* Couleur de texte inversée */
+      transform: scale(1.1); /* Effet de zoom léger */
+    }
+    
+    .menu-icon:active {
+      transform: scale(1); /* Effet de clic */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Réduction de l'ombre */
+    }
+    
+    .navbar {
+      top: 0;
+      left: 0;
+      display: absolute;
+      flex-direction: column;
+      background-color: rgb(78, 74, 54);
+      backdrop-filter: blur(7px);
+      width : 100%;
+      height: 100vh;
+      
+      
+    }
+    .nav-links {display: none;}
+    .nav-links.mobile-menu{
+      display: block; 
+    }
+    header{
+      height: 100%;
+      width: 100%;
+    }
+    .video-background{
+      display: none;
+    }
+    
+    main {
+      display: none;
+    }
+    .nav-links ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .nav-links ul li {
+      margin:  15px 0; /* Espacement entre les liens */
+      font-size: large;
+    }
+    .navbar .logo {
+      font-size: 2em ;
+      font-weight: bold;
+      color: #6d6e2e;
+    }
+  }
